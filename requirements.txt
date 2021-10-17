@@ -52,8 +52,8 @@ oauthlib==3.1.0
 opencv-python
 opt-einsum==3.2.1
 packaging==20.4
-pandas==1.0.3
-pandas-datareader==0.8.1
+pandas
+pandas-datareader
 pandocfilters==1.4.2
 parso==0.7.0
 pexpect==4.8.0
