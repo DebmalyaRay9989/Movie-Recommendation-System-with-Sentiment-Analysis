@@ -1,7 +1,8 @@
+
 Flask==2.1.0
 gunicorn==19.9.0
 Jinja2>=3.0
-MarkupSafe>=2.0.0
+MarkupSafe>=2.0.0  # Updated for compatibility with Jinja2>=3.0
 Werkzeug>=2.0
 numpy>=1.9.2
 scipy>=0.15.1
@@ -11,7 +12,11 @@ beautifulsoup4==4.9.1
 jsonschema==3.2.0
 jsonify==0.5
 tmdbv3api==1.6.1
-lxml==4.6.3
+lxml==4.6.3  # If compilation issues arise, install using a pre-built wheel
 urllib3>=1.21.1
 requests==2.23.0
 pickleshare==0.7.5
+
+
+
+
