@@ -12,6 +12,6 @@ jsonschema==3.2.0
 jsonify==0.5
 tmdbv3api==1.6.1
 lxml==4.6.3
-urllib3==1.26.5
+urllib3>=1.21.1
 requests==2.23.0
 pickleshare==0.7.5
